@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.imgfixa1,
+.imgfixa2,
+.imgfixa3,
+.imgfixa4,
+.imgfixa5{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.topo{
+    width: 100%;
+    background: #604829;
+    position: fixed;
+    z-index: 1;
+    height: 75px;
+}
+
+.topo img{
+    width: 75px;
+    position: relative;
+    left: 15%;
+}
+
+.topo div{
+    position: absolute;
+    top: 30%;
+    right: 5%;
+}
+
+.topo div a{
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: "oswald", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-shadow: 4px 7px 7px #000000;
+    letter-spacing: 2px;
+    color: #c4a47c;
+    padding: 5px
+}
+
+.topo div a:hover{
+    background-color: #000000;
+    border-radius: 25px;
+    padding: 8px;
+}
+
+.imgfixa1{
+    background-image: url(img/parallax-imagem1.png);
+    height: 100vh;
+}
+
+.imgfixa1 h1{
+    top: 45%;
+    right: 0;
+    left: 0;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    font-family: "Fraunces", serif;
+    font-size: 90px;
+}
+
+.texto{
+    padding: 80px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #666;
+}
+
+.texto h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-family: "Oswald", sans-serif;
+    color: #c4a47c;
+    text-shadow: 3px 3px 2px #000000;
+}
+
+.texto p {
+    max-width: 1024px;
+    padding: 0px 20px;
+    margin: 0 auto;
+    font-family: "Lato", "sans-serif";
+    line-height: 34px;
+    letter-spacing: 1px;
+    color: #666;
+}
+
+.imgfixa2{
+    background-image: url(img/parallax-imagem2.jpg);
+    height: 50vh;
+}
+
+.imgfixa2 h3,
+.imgfixa3 h3{
+    width: 500px;
+    padding: 10px;
+
+    position: relative;
+    top: 45%;
+    right: 0;
+    left: 0;
+    margin: auto;
+
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Fraunces", sans-serif;
+    text-align: center;
+
+    letter-spacing: 2px;
+    background-color: #604829;
+    color: #fff;
+    height: 50hv;
+    text-shadow: 3px 3px 2px #000000;
+    border-radius: 5px;
+}
+
+.imgfixa3{
+    background-image: url(img/parallax-imagem3.jpg);
+    height: 50vh;
+}
+
+.imgfixa4{
+    background-image: url(img/parallax-imagem4.png);
+    height: 100vh;
+}
+
+.imgfixa4 h2{
+    width: 500px;
+    padding: 10px;
+    position: relative;
+    top: 5%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 24px;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 5px;
+    text-align: center;
+    background-color: #604829;
+    color: #fff;
+    text-shadow: 3px 3px 2px #000000;
+    border-radius: 5px;
+}
+
+.imgfixa4 iframe{
+    margin: auto;
+    position: absolute;
+    top: 23%;
+    left: 0;
+    right: 0;
+}
+
+.contatos{
+    position: absolute;
+    bottom: 8%;
+    background-color: #604829;
+    margin: auto;
+    right: 0;
+    left: 0;
+    width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contatos p{
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    text-shadow: 0px 6px 8px #000000;
+    text-align: center;
+    line-height: 36px;
+}
+
+.imgfixa5{
+    background-image: url(img/cafeteria.jpg);
+    height: 85vh;
+}
+
+.imgfixa5 h2{
+    position: absolute;
+    top: 5%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 8px;
+}
+
+.lista{
+    max-width: 768px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    bottom: 20%;
+    font-family: "Oswald", sans-serif;
+    list-style: none;
+}
+
+.lista li{
+    position: relative;
+}
+
+.lista li h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.lista li div{
+    width: 70%;
+    height: 1px;
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    right: 0;
+    left: 0;
+    background-color: #ACACAC
+}
+
+.lista li p, .texto-marrom{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+}
+
+.lista li p{
+    color: #ACACAC;
+}
+
+.texto-marrom{
+    color: #c4a47c;
+}
+
+.footer{
+    position: relative;
+    padding: 20px 0;
+    line-height: 34px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+}
+
+.footer span{
+    color: goldenrod;
+}
+
+.footer a{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 80px;
+    right: 50px;
+
+    background-image: url(img/seta-para-cima.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    background-color: #c4a47c;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: grey ;
+    border: 5px solid white;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #604829 ;
+    border-radius: 50px;
+    border: 2px solid white;
+}
